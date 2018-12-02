@@ -1,0 +1,22 @@
+	*{
+		box-sizing: border-box;
+	}
+	ul{
+		list-style-type: none;
+	}
+	div{
+		width: 40vw;
+		height: 10vh;
+		border: 1px solid #ff0;
+		background: rgba(0,0,0,0.5);  
+	}
+	.question{
+		cursor: pointer;
+	}
+	.answer{
+		height: 30vh;
+		display:none;
+	}
+	.open{
+		display: block;
+	}
